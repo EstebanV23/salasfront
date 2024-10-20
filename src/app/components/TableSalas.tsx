@@ -95,7 +95,7 @@ export default function TableSalas() {
         );
       case "actions":
         return (
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 justify-center">
             <Tooltip content="Detalles de la sala">
               <Button className="text-lg text-default-400 cursor-pointer active:opacity-50" isIconOnly variant="light" onClick={() => {
                 setSala(sala)
